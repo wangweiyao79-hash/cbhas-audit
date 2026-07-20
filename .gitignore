@@ -1,0 +1,14 @@
+# Raw datasets — download from the official CIC sources (see README)
+data/
+MERGED_CSV/
+
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Logs
+results/logs/
+*.log
