@@ -1,0 +1,10 @@
+seed: 42
+tau: 2000
+n_target: 5000
+gamma: 2
+lr: 0.001
+batch_size: 256
+epochs: 50
+patience: 5
+ctgan_epochs: 300
+ctgan_batch: 500
