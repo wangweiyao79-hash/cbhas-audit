@@ -1,0 +1,4 @@
+comparison,n_seeds,seeds,mean_delta,CI95_lo,CI95_hi,p_value,significant_at_0.05
+CB-HAS vs ros_matched (decontaminated),3,"42,123,2024",1.017,-1.969,4.565,0.5084,False
+CB-HAS vs smote_matched (decontaminated),3,"42,123,2024",-0.104,-4.862,4.239,0.808,False
+CB-HAS vs adasyn_matched (decontaminated),3,"42,123,2024",0.326,-2.785,4.418,0.8112,False

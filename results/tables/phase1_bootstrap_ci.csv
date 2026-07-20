@@ -1,0 +1,4 @@
+comparison,n_seeds,seeds,mean_delta,CI95_lo,CI95_hi,p_value,significant_at_0.05
+CB-HAS vs no aug,5,"7,42,123,1337,2024",3.437,-1.452,8.954,0.22,False
+CB-HAS vs CTGAN,5,"7,42,123,1337,2024",-0.445,-3.359,2.469,0.8114,False
+CB-HAS+CE vs CB-HAS+FL(sqrt_inv),5,"7,42,123,1337,2024",9.095,5.429,12.541,0.0,True

@@ -1,0 +1,7 @@
+comparison,n_seeds,seeds,mean_delta,CI95_lo,CI95_hi,p_value,significant_at_0.05
+CB-HAS vs TVAE-all (M3),3,"42,123,2024",2.648,-0.866,4.643,0.0666,False
+CB-HAS vs Interp-all (M3),3,"42,123,2024",2.804,-3.415,8.038,0.2892,False
+CB-HAS vs ROS matched (M5),3,"42,123,2024",19.399,17.504,22.734,0.0,True
+CB-HAS vs SMOTE matched (M5),3,"42,123,2024",12.878,11.744,14.253,0.0,True
+CB-HAS vs ADASYN matched (M5),3,"42,123,2024",19.263,17.673,21.421,0.0,True
+CB-HAS vs CTGAN strict (M6),3,"42,123,2024",1.079,-1.277,3.827,0.2974,False

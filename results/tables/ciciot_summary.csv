@@ -1,0 +1,4 @@
+tag,config,n_seeds,seeds,mean_f1,std_f1,min_f1,max_f1
+CE,none+ce,5,"7,42,123,1337,2024",60.227,0.247,59.848,60.5
+FL-fixed,none+focal(fixed),5,"7,42,123,1337,2024",60.46,0.405,59.994,60.885
+FL-sqrt,none+focal(sqrt_inverse),5,"7,42,123,1337,2024",60.004,0.249,59.585,60.207

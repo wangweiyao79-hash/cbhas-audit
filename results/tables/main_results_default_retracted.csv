@@ -1,0 +1,15 @@
+# RETRACTED (2026-07-11): default-budget ROS/SMOTE/ADASYN rows from main_results.csv (paper Table 4).
+# Provenance could not be verified: current train.py resample() code, when rerun with these
+# rows' recorded seed/sampler, ALWAYS triggers the majority-class cap (need_cap=True, since
+# BENIGN=1,257,033 >> CAP=50,000) unless budget=="matched". These rows show downsampled=False,
+# which is inconsistent with that logic and with no surviving training log to confirm whether an
+# older code version (pre-CAP) or a different mechanism produced them. Superseded by the
+# decontaminated matched-budget rerun (phase3_results_v2.csv / table4_replacement_rows.csv),
+# which has verified provenance (self-checked, byte-for-byte majority-class preservation logged).
+# Paper Table 4 traditional-oversampling baselines are unified to the matched-budget convention;
+# these default-budget rows no longer appear in the manuscript. Kept here for audit trail only.
+# main_results.csv itself is UNCHANGED — this is a copy/archive, not a mutation.
+sampler,loss,seed,downsampled,accuracy,weighted_f1,macro_precision,macro_recall,macro_f1,gmean,recall_BENIGN,recall_Bot,recall_DDoS,recall_DoS_GoldenEye,recall_DoS_Hulk,recall_DoS_Slowhttptest,recall_DoS_slowloris,recall_FTP_Patator,recall_Heartbleed,recall_Infiltration,recall_PortScan,recall_SSH_Patator,recall_Web_Attack_�_Brute_Force,recall_Web_Attack_�_Sql_Injection,recall_Web_Attack_�_XSS,balanced_accuracy,precision_BENIGN,precision_Bot,precision_DDoS,precision_DoS_GoldenEye,precision_DoS_Hulk,precision_DoS_Slowhttptest,precision_DoS_slowloris,precision_FTP_Patator,precision_Heartbleed,precision_Infiltration,precision_PortScan,precision_SSH_Patator,precision_Web_Attack_�_Brute_Force,precision_Web_Attack_�_Sql_Injection,precision_Web_Attack_�_XSS,alpha_mode
+ros,ce,42,False,0.9715368137099334,0.9754443682575652,0.5936610872996694,0.8746670346758888,0.655500656963265,0.8492592985480536,0.966333,1.0,0.999922,0.998542,0.998901,0.996176,0.987929,0.99747,0.5,0.857143,0.999118,1.0,0.564626,0.5,0.753846,0.8746670346758888,0.999973,0.154578,0.9543,0.885727,0.951739,0.788796,0.885928,0.995791,0.25,0.24,0.741045,0.78825,0.170606,0.010526,0.087657,
+smote,ce,42,False,0.9493394953982862,0.9604313509161546,0.5825417188666933,0.8680311668258391,0.6137689597012836,0.8429134320560281,0.939744,1.0,0.99918,0.992222,0.998814,0.99522,0.986072,0.99747,0.5,0.857143,0.998787,0.992236,0.602041,0.5,0.661538,0.8680311668258391,0.999942,0.045407,0.93127,0.551175,0.944162,0.761522,0.858529,0.994954,1.0,0.026786,0.689777,0.723669,0.135218,0.006024,0.069692,
+adasyn,ce,42,False,0.9626547127895906,0.9698139082243332,0.5708281993798171,0.8957603547759335,0.6337957693497606,0.8524076410910425,0.955751,1.0,0.999844,0.986874,0.998901,0.99044,0.988858,0.999157,1.0,1.0,0.999063,0.98913,0.547619,0.25,0.730769,0.8957603547759335,0.999973,0.072911,0.953692,0.82153,0.945847,0.764012,0.636581,0.928683,0.666667,0.023729,0.738829,0.788366,0.123466,0.003891,0.094246,

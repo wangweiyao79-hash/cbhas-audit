@@ -1,0 +1,8 @@
+class_id,class_name,n_before,n_added,n_after,method
+1,Bot,1168,3832,5000,SMOTE_fallback
+8,Heartbleed,7,4993,5000,SMOTE_fallback
+9,Infiltration,22,4978,5000,SMOTE_fallback
+11,SSH-Patator,1931,3069,5000,SMOTE_fallback
+12,Web Attack � Brute Force,882,4118,5000,SMOTE_fallback
+13,Web Attack � Sql Injection,13,4987,5000,SMOTE_fallback
+14,Web Attack � XSS,392,4608,5000,SMOTE_fallback

@@ -1,0 +1,2 @@
+comparison,n_seeds,seeds,mean_delta,CI95_lo,CI95_hi,p_value,significant_at_0.05
+CB-HAS+CE vs CB-HAS+FL(fixed),5,"7,42,123,1337,2024",-0.261,-3.106,3.457,0.7498,False

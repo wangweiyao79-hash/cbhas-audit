@@ -1,0 +1,3 @@
+comparison,n_seeds,seeds,mean_delta,CI95_lo,CI95_hi,p_value,significant_at_0.05
+none+FL(fixed) vs none+CE,5,"7,42,123,1337,2024",1.567,-1.5,4.633,0.3628,False
+none+FL(sqrt_inv) vs none+CE,5,"7,42,123,1337,2024",-7.423,-12.417,-2.689,0.0004,True
