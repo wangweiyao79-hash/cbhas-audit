@@ -7,7 +7,7 @@ strategy differs from any other.
 Sources (per-seed Macro-F1):
   phase1_multiseed.csv   none+ce, ctgan+ce, tvae+ce (=CB-HAS)   seeds {7,42,123,1337,2024}
   phase3_results_v2.csv  ros/smote/adasyn_matched (decontaminated) seeds {42,123,2024}
-  phase3_results.csv     ctgan_strict                              seeds {42,123,2024}
+  phase3_results_strictctgan.csv  ctgan_strict                     seeds {42,123,2024}
   phase2_results.csv     tvae_all, interp_all                      seeds {42,123,2024}
 
 Output: results/tables/pairwise_bootstrap.csv  (36 rows)
