@@ -4,8 +4,8 @@ Code, per-seed results, and released artifacts for the paper:
 
 > **Rethinking Data Augmentation and Focal Loss for Class-Imbalanced Intrusion
 > Detection: A Multi-Seed, Budget-Fair Audit on CIC-IDS2017**
-> Wei-Yao Wang, Ze-Li Wang, Xiao-Chen Zhang, Yuan Tian, Zhao-Kun Shi, Yue-Han Wang,
-> Xu-Peng Song, and Ze-Yu Liu. *PeerJ Computer Science* (under review).
+> Wei-Yao Wang, Chao Meng, Ze-Li Wang, Xiao-Chen Zhang, Yuan Tian, Zhao-Kun Shi,
+> Yue-Han Wang, Xu-Peng Song, and Ze-Yu Liu. *PeerJ Computer Science* (under review).
 
 The paper audits a complete augmentation pipeline (CB-HAS: cardinality-routed
 TVAE + interpolation, vs. ROS / SMOTE / ADASYN / CTGAN / Focal Loss) under a
@@ -104,8 +104,9 @@ corresponding split to reproduce the tables.
 
 ```bibtex
 @article{wang_cbhas_audit,
-  author  = {Wang, Wei-Yao and Wang, Ze-Li and Zhang, Xiao-Chen and Tian, Yuan
-             and Shi, Zhao-Kun and Wang, Yue-Han and Song, Xu-Peng and Liu, Ze-Yu},
+  author  = {Wang, Wei-Yao and Meng, Chao and Wang, Ze-Li and Zhang, Xiao-Chen
+             and Tian, Yuan and Shi, Zhao-Kun and Wang, Yue-Han and Song, Xu-Peng
+             and Liu, Ze-Yu},
   title   = {Rethinking Data Augmentation and Focal Loss for Class-Imbalanced
              Intrusion Detection: A Multi-Seed, Budget-Fair Audit on CIC-IDS2017},
   journal = {PeerJ Computer Science},
